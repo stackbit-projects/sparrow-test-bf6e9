@@ -9,7 +9,7 @@ sections:
       We are a brand and design practice. We work closely with you, your team to
       deliver inspiring work, which enables your organization to grow. [Let's
       talk](/contact/).
-  - section_id: lorem-ipsum
+  - section_id: My Awesome Section
     title: lorem-ipsum
     subtitle: lorem-ipsum
     col_number: three
