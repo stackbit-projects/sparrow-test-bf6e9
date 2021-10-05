@@ -13,7 +13,7 @@ sections:
     title: My Awesome Section
     col_number: two
     grid_items:
-      - title: lorem-ipsum
+      - title: 'Item #1'
         subtitle: lorem-ipsum
         image_alt: lorem-ipsum
         content: >-
