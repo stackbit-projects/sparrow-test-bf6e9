@@ -70,5 +70,6 @@
                 "new_window": true
             }
         ]
-    }
+    },
+    "domain": "https://sparrow-test-bf6e9.netlify.app"
 }
