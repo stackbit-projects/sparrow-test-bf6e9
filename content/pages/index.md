@@ -11,7 +11,7 @@ sections:
       talk](/contact/).
   - section_id: awesome-section
     title: My Awesome Section
-    col_number: three
+    col_number: two
     grid_items: []
     type: grid_section
   - type: portfolio_section
