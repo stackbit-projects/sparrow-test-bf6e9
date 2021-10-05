@@ -11,7 +11,6 @@ sections:
       talk](/contact/).
   - section_id: awesome-section
     title: My Awesome Section
-    subtitle: lorem-ipsum
     col_number: three
     grid_items: []
     type: grid_section
