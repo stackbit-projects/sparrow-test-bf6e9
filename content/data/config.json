@@ -71,6 +71,12 @@
                                 "slug": "ferrismart",
                                 "classification": "Liver",
                                 "parameter": "Iron"
+                            },
+                            {
+                                "productname": "lorem-ipsum",
+                                "slug": "lorem-ipsum",
+                                "classification": "Liver",
+                                "parameter": "Iron"
                             }
                         ],
                         "type": "mega_menu_products"
