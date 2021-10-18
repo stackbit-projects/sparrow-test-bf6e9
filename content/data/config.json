@@ -69,14 +69,14 @@
                             {
                                 "productname": "FerriSmart",
                                 "slug": "ferrismart",
-                                "classification": "Liver",
-                                "parameter": "Iron"
+                                "classification": ["Liver"],
+                                "parameter": ["Iron"]
                             },
                             {
                                 "productname": "LiverSmart™",
                                 "slug": "liversmart",
-                                "classification": "Liver",
-                                "parameter": "Fat"
+                                "classification": ["Liver"],
+                                "parameter": ["Fat"]
                             }
                         ],
                         "type": "mega_menu_products"
