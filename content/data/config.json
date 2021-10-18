@@ -62,6 +62,11 @@
                         "caption": "lorem-ipsum",
                         "width": "regular",
                         "type": "image_section"
+                    },
+                    {
+                        "sectionname": "Products",
+                        "products": [],
+                        "type": "mega_menu_products"
                     }
                 ],
                 "type": "mega_menu"
