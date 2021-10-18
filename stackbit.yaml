@@ -113,7 +113,7 @@ models:
           type: model
           models:
             - action
-            - mega-menu
+            - mega_menu
   footer:
     type: object
     label: Footer Configuration
@@ -788,9 +788,9 @@ models:
             - posts_section
             - testimonials_section
             - form_section
-  mega-menu:
+  mega_menu:
     type: object
-    name: megamenu
+    name: mega_menu
     label: MegaMenu
     labelField: label
     fields: 
@@ -808,11 +808,11 @@ models:
         items:
           type: model
           models:
-            - image-section
-            - mega-menu-products
-  mega-menu-products:
+            - image_section
+            - mega_menu_products
+  mega_menu_products:
     type: object
-    name: megamenuproducts
+    name: mega_menu_products
     label: MegaMenuProducts
     labelField: label
     fields:
@@ -827,10 +827,10 @@ models:
         items: 
           type: model
           models:
-            - megamenuproduct
-  mega-menu-product:
+            - mega_menu_product
+  mega_menu_product:
     type: object
-    name: megamenuproduct
+    name: mega_menu_product
     label: MegaMenu Product
     labelField: label
     fields:
