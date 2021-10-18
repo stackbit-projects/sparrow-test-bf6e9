@@ -53,6 +53,12 @@
                 "label": "Contact",
                 "url": "/contact/",
                 "style": "button"
+            },
+            {
+                "label": "lorem-ipsum",
+                "url": "lorem-ipsum",
+                "items": [],
+                "type": "mega_menu"
             }
         ]
     },
