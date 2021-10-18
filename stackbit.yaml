@@ -113,6 +113,7 @@ models:
           type: model
           models:
             - action
+            - mega-menu
   footer:
     type: object
     label: Footer Configuration
@@ -787,6 +788,76 @@ models:
             - posts_section
             - testimonials_section
             - form_section
+  mega-menu:
+    type: object
+    name: megamenu
+    label: MegaMenu
+    labelField: label
+    fields: 
+      - type: string
+        name: label
+        label: Label
+        required: true
+      - type: string
+        name: url
+        label: URL (optional)
+      - type: list
+        name: items
+        label: MegaMenu Items
+        description: The boxes that will appear in the mega menu
+        items:
+          type: model
+          models:
+            - image-section
+            - mega-menu-products
+  mega-menu-products:
+    type: object
+    name: megamenuproducts
+    label: MegaMenuProducts
+    labelField: label
+    fields:
+      - type: string
+        name: sectionname
+        label: Section Name
+        required: true
+        default: 'Products'
+      - type: list
+        name: products
+        label: Products
+        items: 
+          type: model
+          models:
+            - megamenuproduct
+  mega-menu-product:
+    type: object
+    name: megamenuproduct
+    label: MegaMenu Product
+    labelField: label
+    fields:
+      - type: string
+        name: productname
+        label: Product Name
+        required: true
+      - type: string
+        name: slug
+        label: Slug
+        description: 'This is the URL component that appears after the /product/ part'
+        required: true
+      - type: enum
+        name: classification
+        label: Classification
+        options:
+          - Liver
+          - Cardiovasular
+          - Spleen
+          - Bone
+      - type: enum
+        name: parameter
+        label: Parameter
+        options: 
+          - Iron
+          - Fat
+          - Defect
   stackbit_page_meta:
     type: object
     label: Page meta data
