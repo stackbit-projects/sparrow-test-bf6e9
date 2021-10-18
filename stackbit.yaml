@@ -1001,6 +1001,7 @@ models:
           - Cardiovasular
           - Spleen
           - Bone
+        required: true
       - type: enum
         name: parameter
         label: Parameter
