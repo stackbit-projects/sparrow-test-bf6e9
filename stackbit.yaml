@@ -812,7 +812,7 @@ models:
   mega_menu_products:
     type: object
     label: MegaMenu Products
-    labelField: label
+    labelField: sectionname
     fields:
       - type: string
         name: sectionname
@@ -829,7 +829,7 @@ models:
   mega_menu_product:
     type: object
     label: MegaMenu Product
-    labelField: label
+    labelField: productname
     fields:
       - type: string
         name: productname
