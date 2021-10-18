@@ -55,7 +55,7 @@
                 "style": "button"
             },
             {
-                "label": "lorem-ipsum",
+                "label": "Products",
                 "url": "lorem-ipsum",
                 "items": [],
                 "type": "mega_menu"
