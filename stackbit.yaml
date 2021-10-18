@@ -993,23 +993,29 @@ models:
         label: Slug
         description: This is the URL component that appears after the /product/ part
         required: true
-      - type: enum
+      - type: list
         name: classification
         label: Classification
-        options:
-          - Liver
-          - Cardiovasular
-          - Spleen
-          - Bone
         required: true
-      - type: enum
+        items:
+          type: enum
+          options:
+            - Liver
+            - Cardiovasular
+            - Spleen
+            - Bone
+        required: true
+      - type: list
         name: parameter
         label: Parameter
-        options:
-          - Iron
-          - Fat
-          - Defect
         required: true
+        items:
+          type: enum
+          options:
+            - Iron
+            - Fat
+            - Defect
+        
   stackbit_page_meta:
     type: object
     label: Page meta data
