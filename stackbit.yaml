@@ -790,7 +790,6 @@ models:
             - form_section
   mega_menu:
     type: object
-    name: mega_menu
     label: MegaMenu
     labelField: label
     fields: 
@@ -812,8 +811,7 @@ models:
             - mega_menu_products
   mega_menu_products:
     type: object
-    name: mega_menu_products
-    label: MegaMenuProducts
+    label: MegaMenu Products
     labelField: label
     fields:
       - type: string
@@ -830,7 +828,6 @@ models:
             - mega_menu_product
   mega_menu_product:
     type: object
-    name: mega_menu_product
     label: MegaMenu Product
     labelField: label
     fields:
