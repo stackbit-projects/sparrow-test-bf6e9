@@ -53,6 +53,36 @@
                 "label": "Contact",
                 "url": "/contact/",
                 "style": "button"
+            },
+            {
+                "label": "Products",
+                "items": [
+                    {
+                        "image_alt": "lorem-ipsum",
+                        "caption": "lorem-ipsum",
+                        "width": "regular",
+                        "type": "image_section"
+                    },
+                    {
+                        "sectionname": "Products",
+                        "products": [
+                            {
+                                "productname": "FerriSmart",
+                                "slug": "ferrismart",
+                                "classification": "Liver",
+                                "parameter": "Iron"
+                            },
+                            {
+                                "productname": "LiverSmart™",
+                                "slug": "liversmart",
+                                "classification": "Liver",
+                                "parameter": "Fat"
+                            }
+                        ],
+                        "type": "mega_menu_products"
+                    }
+                ],
+                "type": "mega_menu"
             }
         ]
     },
