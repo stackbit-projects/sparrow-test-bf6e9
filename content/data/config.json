@@ -11,6 +11,7 @@
         "has_nav": true,
         "nav_links": [
             {
+                "type": "action",
                 "label": "HomePage",
                 "url": "/",
                 "style": "link",
@@ -30,21 +31,25 @@
                 ]
             },
             {
+                "type": "action",
                 "label": "Work",
                 "url": "/portfolio/",
                 "style": "link"
             },
             {
+                "type": "action",
                 "label": "Journal",
                 "url": "/blog/",
                 "style": "link"
             },
             {
+                "type": "action",
                 "label": "About",
                 "url": "/about/",
                 "style": "link"
             },
             {
+                "type": "action",
                 "label": "Contact",
                 "url": "/contact/",
                 "style": "button"
