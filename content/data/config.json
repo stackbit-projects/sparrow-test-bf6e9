@@ -65,7 +65,14 @@
                     },
                     {
                         "sectionname": "Products",
-                        "products": [],
+                        "products": [
+                            {
+                                "productname": "lorem-ipsum",
+                                "slug": "lorem-ipsum",
+                                "classification": "Liver",
+                                "parameter": "Iron"
+                            }
+                        ],
                         "type": "mega_menu_products"
                     }
                 ],
