@@ -829,6 +829,7 @@ models:
         description: The type of the object
         const: text_section
         hidden: true
+    labelField: type
   image_section:
     type: object
     label: Image Section
