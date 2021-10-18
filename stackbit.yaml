@@ -1004,7 +1004,6 @@ models:
             - Cardiovasular
             - Spleen
             - Bone
-        required: true
       - type: list
         name: parameter
         label: Parameter
