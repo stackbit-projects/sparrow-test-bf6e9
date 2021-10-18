@@ -772,6 +772,21 @@ models:
         label: No follow
         default: false
         description: Add rel="nofollow" attribute to the link
+      - type: list
+        name: sections
+        label: Sections
+        description: Page sections
+        items:
+          type: model
+          models:
+            - hero_section
+            - content_section
+            - cta_section
+            - grid_section
+            - portfolio_section
+            - posts_section
+            - testimonials_section
+            - form_section
   stackbit_page_meta:
     type: object
     label: Page meta data
