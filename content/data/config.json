@@ -13,7 +13,21 @@
             {
                 "label": "HomePage",
                 "url": "/",
-                "style": "link"
+                "style": "link",
+                "sections": [
+                    {
+                        "section_id": "lorem-ipsum",
+                        "title": "lorem-ipsum",
+                        "subtitle": "lorem-ipsum",
+                        "content": "## Lorem ipsum\n\nLorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n- Lorem ipsum\n- dolor sit amet",
+                        "form_id": "lorem-ipsum",
+                        "form_action": "lorem-ipsum",
+                        "form_fields": [],
+                        "hide_labels": false,
+                        "submit_label": "lorem-ipsum",
+                        "type": "form_section"
+                    }
+                ]
             },
             {
                 "label": "Work",
