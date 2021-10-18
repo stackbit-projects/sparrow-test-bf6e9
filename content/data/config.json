@@ -56,7 +56,14 @@
             },
             {
                 "label": "Products",
-                "items": [],
+                "items": [
+                    {
+                        "image_alt": "lorem-ipsum",
+                        "caption": "lorem-ipsum",
+                        "width": "regular",
+                        "type": "image_section"
+                    }
+                ],
                 "type": "mega_menu"
             }
         ]
