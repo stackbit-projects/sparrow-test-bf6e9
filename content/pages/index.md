@@ -5,10 +5,10 @@ sections:
   - type: hero_section
     section_id: hero
     title: The Latest and Greatest!!
-    content: >-
-      We are a brand and design practice. We work closely with you, your team to
-      deliver inspiring work, which enables your organization to grow. [Let's
-      talk](/contact/).
+    content: >
+      We are a brand and design **practice**. We work closely with you, your
+      team to deliver inspiring work, which enables your organization to grow.
+      [Let's talk](/contact/).
   - section_id: awesome-section
     title: My Awesome Section
     col_number: two
