@@ -12,7 +12,7 @@
         "nav_links": [
             {
                 "type": "action",
-                "label": "HomePage",
+                "label": "About Us",
                 "url": "/",
                 "style": "link",
                 "sections": [
