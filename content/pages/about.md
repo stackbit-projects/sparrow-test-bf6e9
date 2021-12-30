@@ -128,4 +128,5 @@ seo:
       value: images/about.jpg
       relativeUrl: true
 layout: advanced
+otherpage: content/pages/contact.md
 ---
