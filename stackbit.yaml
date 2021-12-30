@@ -167,7 +167,8 @@ models:
       - type: reference
         name: otherpage
         label: Link to another page
-        
+        models:
+          - advanced
       - type: list
         name: sections
         label: Sections
