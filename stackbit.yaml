@@ -164,6 +164,9 @@ models:
         name: hide_title
         label: Hide page title
         default: true
+      - type: reference
+        name: otherpage
+        label: Link to another page
       - type: list
         name: sections
         label: Sections
