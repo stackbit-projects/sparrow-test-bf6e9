@@ -1,6 +1,6 @@
 ---
 title: ASX Investors
-hide_title: true
+hide_title: false
 sections:
   - section_id: lorem-ipsum
     title: lorem-ipsum
