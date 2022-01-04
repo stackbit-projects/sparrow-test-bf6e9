@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: ASX Investors
 hide_title: true
 sections: []
 seo:
