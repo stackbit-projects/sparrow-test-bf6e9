@@ -10,5 +10,6 @@ sections:
       - label: Back to homepage
         url: /
         style: button
+    title: ASX Investing in Us has never been easier
 layout: advanced
 ---
